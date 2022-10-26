@@ -1,3 +1,5 @@
+// ======== This Script is Trial version===========
+
 var email = document.querySelector("#email"),
   password = document.querySelector("#password"),
   mySVG = document.querySelector(".svgContainer"),
@@ -55,7 +57,7 @@ function getCoord(e) {
   span.textContent = email.value.substr(carPos) || ".";
   div.appendChild(span);
 
-  emailCoords = getPosition(email); //console.log("emailCoords.x: " + emailCoords.x + ", emailCoords.y: " + emailCoords.y);
+  emailCoords = getPosition(email); // console.log("emailCoords.x: " + emailCoords.x + ", emailCoords.y: " + emailCoords.y);
   caretCoords = getPosition(span); //console.log("caretCoords.x " + caretCoords.x + ", caretCoords.y: " + caretCoords.y);
   centerCoords = getPosition(mySVG); //console.log("centerCoords.x: " + centerCoords.x);
   svgCoords = getPosition(mySVG);
