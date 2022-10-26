@@ -28,6 +28,7 @@ form {
   background-color: #FFF;
   margin: 0;
   padding: 2.25em;
+  /* padding: 10px; */
   box-sizing: border-box;
   border: solid 1px #DDD;
   border-radius: 0.5em;
@@ -36,8 +37,8 @@ form {
 
 form .svgContainer {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto 1em;
   border-radius: 50%;
   background: none;
